@@ -1,1 +1,1 @@
-# NI_network
+# Neural_Induction_Network
