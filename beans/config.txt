@@ -1,1 +1,47 @@
 
+workingDirectory=/home/grace/Dropbox/UCL/Neural_Induction/Grace/regulatory_network/
+
+
+# 2 regulatory regions
+geneInfo=RNAseq_data_1.5_for_network_4_gene_info.txt
+geneExpr=RNAseq_data_1.5_for_network_4_expression.txt
+
+putativeRegulatoryRegionIndices=active,index_7_poised_active
+otherRegulatoryRegions=repress,poised,index_4,index_5,index_6,index_8_active_poised,index_9_poised_repressed,index_10_repressed_poised,index_11_poised,index_12_poised,index_13,index_14,index_16
+
+putativeRegulatoryRegionHour=5h,9h,12h
+putativeRegulatoryRegionIndexFolder=MACS2_output/
+putativeRegulatoryRegionOutputFolder=putative_regulatory_regions/
+
+galGal5ChrFastaFolder=MACS2_output/galGal5_Chromosomes/
+
+
+
+# 3 network interactions
+networkFolder=network/
+ucscFolder=bedFilesForUCSC/
+fimoOutputFolder=putative_regulatory_regions/
+networkTimePoints=0h,1h,3h,5h,7h,9h,12h
+printExpr=false
+selectedRegulatoryIndices=active,index_7_poised_active,index_4,index_5,index_6
+
+
+# 4 BioTapestry and UCSC
+fpkmFile=gene_fpkm.csv
+
+putativeRegulatoryRegionFolder=putative_regulatory_regions/
+
+upRegColor=76,153,0
+downRegColor=0,0,204
+
+activationColor=0,0,102
+repressionColor=0,128,255
+poisedColor=255,204,0
+noChangeColor=255,128,0
+
+
+# 5
+selectedGene=BRD8
+
+
+
