@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Stern's lab, Department of Cell and Developmental Biology, University College London
+Copyright (c) 2023 Stern lab, Department of Cell and Developmental Biology, University College London, UK
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
